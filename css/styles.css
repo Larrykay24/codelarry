@@ -243,11 +243,11 @@ font-family: "Arima", system-ui;
   left: 20px;
   z-index: 99;
   border: none;
-  padding: 15px;
-  font-size: 25px;
+  padding: 12px;
+  font-size: 27px;
   background-color: #25D366;
   color: #fff;
-  border-radius: 100%;
+  border-radius: 50px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
