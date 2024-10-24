@@ -1,5 +1,6 @@
 body {
-    font-family: 'Poppins', sans-serif;
+   
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DM+Serif+Text:ital@0;1&display=swap');
     background-color: #f8f9fa; /* Light background for contrast */
 }
 
