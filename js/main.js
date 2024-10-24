@@ -217,3 +217,11 @@ function validatePhoneNumber() {
 }
 
 // Show the button when the user scrolls down 100px
+// Add this script if you want a cool animation effect
+$(document).ready(function() {
+  $('.whatsapp-float').hover(function() {
+    $(this).animate({bottom: '+=5'}, 200);
+  }, function() {
+    $(this).animate({bottom: '-=5'}, 200);
+  });
+});
