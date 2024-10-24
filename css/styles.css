@@ -255,6 +255,7 @@ font-family: "Arima", system-ui;
   display: flex;
   justify-content: center;
   align-items: center;
+text-decoration: none;
 }
 
 .whatsapp-float:hover {
