@@ -112,16 +112,21 @@ header {
   bottom: 20px;
   left: 20px;
   z-index: 99;
+  width: 60px; /* Ensures the circle has equal width and height */
+  height: 60px; /* Ensures the circle has equal width and height */
   border: none;
-  padding: 15px;
-  font-size: 25px;
+  padding: 0; /* Removes padding inside the circle */
+  font-size: 27px;
   background-color: #25D366;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 50%; /* Makes the element a perfect circle */
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+text-decoration: none;
 }
-
 .whatsapp-float:hover {
   background-color: #2CC66B;
 }
