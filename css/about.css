@@ -107,6 +107,25 @@ header {
     visibility: visible;
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99;
+  border: none;
+  padding: 15px;
+  font-size: 25px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-float:hover {
+  background-color: #2CC66B;
+}
+
 /* Footer */
 footer {
     padding: 20px 0;
