@@ -5,6 +5,20 @@ font-family: "Arima", system-ui;
   font-style: normal;
 } 
 
+.full-width-landscape {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.landscape-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
 /* Navbar */
 .navbar {
     background-color: #000000 !important; 
