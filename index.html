@@ -562,5 +562,16 @@
 document.getElementById("scrollTopBtn").onclick = function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 };</script>
+<script>
+    // Show the popup on page load
+    window.onload = function() {
+        document.getElementById("popup-overlay").style.display = "flex";
+    };
+
+    // Close the popup when the close button is clicked
+    document.getElementById("close-button").onclick = function() {
+        document.getElementById("popup-overlay").style.display = "none";
+    };
+</script>
 </body>
 </html>
